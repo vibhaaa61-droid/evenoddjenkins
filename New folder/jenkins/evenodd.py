@@ -1,9 +1,7 @@
-def evenandodd(num):
-
+def evenanadodd(num):
     if num % 2 == 0:
-        return "even"
+        return "Even"
     else:
-        return "odd" 
+        return "Odd"
 
-if __name__ == "__main__":    
-    print("Even and odd", evenandodd(23))
+print("even and odd", evenanadodd(5))
